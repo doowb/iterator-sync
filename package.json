@@ -21,5 +21,11 @@
   },
   "devDependencies": {
     "mocha": "*"
-  }
+  },
+  "related": [
+    "loader-cache",
+    "iterator-async",
+    "iterator-streams",
+    "iterator-promise"
+  ]
 }
