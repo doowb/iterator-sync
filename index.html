@@ -15,26 +15,34 @@
 
   </head>
   <body onload='prettyPrint();$(".collapse")();'>
-<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="#">{{site.github.project_title}}</a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div>
-    </div><!-- /navbar-inner -->
-</div>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">{{site.github.project_title}}</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+          </div><!-- /.nav-collapse -->
+        </div>
+      </div><!-- /navbar-inner -->
+    </div>
 
-  <div class='row-fluid'>
+    <div class='row-fluid'>
       <div class='hero-unit'>
-      <header>
-        <h1>{{site.github.project_title}}</h1>
-      </header>
-      <p>{{site.github.project_tagline}}</p>
+        <header>
+          <h1>{{site.github.project_title}}</h1>
+        </header>
+        <p>{{site.github.project_tagline}}</p>
+      </div>
+    </div>
 
-  <a href='{{site.github.repository_url}}' class='github-ribbon'><img src='assets/images/github-ribbons/red.png' /></a>
+    <div class="row-fluid">
+      <ul class="list-group">
+        {{site.data.related.content}}
+      </ul>
+    </div>
+
+    <a href='{{site.github.repository_url}}' class='github-ribbon'><img src='assets/images/github-ribbons/red.png' /></a>
   </body>
 </html>
