@@ -1,14 +1,40 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{site.github.project_title}}</title>
-</head>
-<body>
-  <h1>{{site.github.project_title}}</h1>
-  <h2>{{site.github.project_tagline}}</h2>
-  <p><a href="{{site.github.repository_url}}">Fork me!</a></p>
-</body>
+<html lang='en'>
+  <head>
+    <title>{{site.github.project_title}}</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  <script type='text/javascript' src='assets/javascript/prettify.js'></script>
+    <script type='text/javascript' src='assets/javascript/bootstrap-collapse.js'></script>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+    <link rel='stylesheet' type='text/css' href='assets/css/bootstrap.css' />
+    <link rel='stylesheet' type='text/css' href='assets/css/prettify.css' />
+
+  </head>
+  <body onload='prettyPrint();$(".collapse")();'>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">{{site.github.project_title}}</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+    </div><!-- /navbar-inner -->
+</div>
+
+  <div class='row-fluid'>
+      <div class='hero-unit'>
+      <header>
+        <h1>{{site.github.project_title}}</h1>
+      </header>
+      <p>{{site.github.project_tagline}}</p>
+
+  <a href='{{site.github.repository_url}}' class='github-ribbon'><img src='assets/images/github-ribbons/red.png' /></a>
+  </body>
 </html>
