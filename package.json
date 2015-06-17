@@ -1,7 +1,7 @@
 {
   "name": "iterator-sync",
   "description": "Iterate over a stack of functions.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/doowb/iterator-sync",
   "author": "Brian Woodward (https://github.com/doowb)",
   "repository": "doowb/iterator-sync",
@@ -29,5 +29,14 @@
       "iterator-promise",
       "iterator-streams"
     ]
-  }
+  },
+  "keywords": [
+    "compose",
+    "iterate",
+    "iterator",
+    "load",
+    "loader",
+    "loader-cache",
+    "read"
+  ]
 }

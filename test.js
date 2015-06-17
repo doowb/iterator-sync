@@ -1,5 +1,6 @@
 'use strict';
 
+/* deps: mocha */
 var assert = require('assert');
 var iterator = require('./');
 
