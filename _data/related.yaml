@@ -1,11 +1,11 @@
 content: >-
   <li><a href="https://github.com/doowb/iterator-async">iterator-async</a>:
+  Iterate over a stack of async functions.</li>
+
+  <li><a href="https://github.com/doowb/iterator-promise">iterator-promise</a>:
   Iterator over a stack of functions.</li>
 
   <li><a href="https://github.com/doowb/iterator-streams">iterator-streams</a>:
-  Iterator over a stack of functions.</li>
-
-  <li><a href="https://github.com/doowb/iterator-promise">iterator-promise</a>:
   Iterator over a stack of functions.</li>
 
   <li><a href="https://github.com/jonschlinkert/loader-cache">loader-cache</a>:
